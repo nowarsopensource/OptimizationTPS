@@ -1,0 +1,7 @@
+name: OptimizationTPS
+version: '${version}'
+main: dev.dicktalk.nowarssmp.optimizationtps.OptimizationTPS
+api-version: '1.20'
+commands:
+  unloadchunks:
+    usage: "/unloadchunks"
