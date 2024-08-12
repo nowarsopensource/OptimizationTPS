@@ -27,7 +27,7 @@ jobs:
       uses: gradle/gradle-build-action@v2
 
     - name: Build with Gradle
-      run: ./gradlew build
+      run: chmod +x ./gradlew && ./gradlew clean build && ./gradlew build
 
     - name: Publish to GitHub Packages
       if: github.event_name != 'pull_request'
